@@ -75,7 +75,7 @@ ul a:hover {
 }
 
 .about {
-  padding: 0  48px;
+  padding: 0;
   margin-top: 96px;
   text-align: center;
 }
@@ -142,16 +142,11 @@ small {
   .about-1 {
     display: flex;
     margin: 64px auto;
-    max-width: 500px;
+    max-width: 600px;
   }
 
   .pic-1 {
-    flex: 1;
     padding: 32px;
-  }
-
-  .my-profile {
-    flex: 1;
   }
 
   .sohito {
