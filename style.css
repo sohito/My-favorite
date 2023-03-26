@@ -82,16 +82,16 @@ ul a:hover {
 
 .my-profile {
   text-align: left;
-  width: calc(100%-32px);
+  padding: 0 32px;
 }
 
 .my-profile h3 {
-  width: 400px;
+  width: 360px;
 }
 
 .my-profile p {
   margin-top: 12px;
-  width: 400px;
+  width: 360px;
 }
 
 /* Bicycle */
