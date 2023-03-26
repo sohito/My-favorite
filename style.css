@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+/* common */
+
+body {
+  margin: 0;
+}
+
+h1 {
+    margin: 0;
+  }
+
+h2 {
+  margin: 32px auto;
+  font-size: 32px;
+  border-bottom: 1px solid black;
+  width: fit-content;
+}
+
+h3 {
+  margin: 0 auto;
+}
+
+p {
+  margin: 0 auto;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  width: calc(100% - 64px);
+  margin: 5px auto;
+}
+
+.Profile {
+  text-decoration: none;
+  color: white;
+  background: #333;
+  font-size: 24px;
+  padding: 8px 16px;
+}
+
+ul {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  font-size: 14px;
+}
+
+ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul a:hover { 
+  opacity: .7;
+}
+
+/* main */
+.container img {
+  height: 720px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sohito {
+  border-radius: 50%;
+}
+
+.about {
+  padding: 0  48px;
+  margin-top: 96px;
+  text-align: center;
+}
+
+.my-profile {
+  text-align: left;
+}
+
+.my-profile h3 {
+  width: 400px;
+}
+
+.my-profile p {
+  margin-top: 12px;
+  width: 400px;
+}
+
+/* Bicycle */
+
+.bicycle {
+  margin-top: 96px;
+  padding: 0 16px 128px;
+}
+
+.bicycle-2 {
+  margin-top: 32px;
+  width: 100%;
+}
+
+.favorite-2 {
+  text-align: center;
+}
+
+.bicycle-3 {
+  margin-top: 32px;
+  width: 100%;
+}
+
+.favorite-3 {
+  text-align: center;
+}
+
+.bicycle-4 {
+    margin-top: 32px;
+    width: 100%;
+}
+  
+.favorite-4 {
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+}
+
+small {
+  font-size: 4px;
+  color: #555;
+}
+
+@media(min-width: 600px) {
+  .about-1 {
+    display: flex;
+    margin: 64px auto;
+    max-width: 500px;
+  }
+
+  .pic-1 {
+    flex: 1;
+    padding: 32px;
+  }
+
+  .my-profile {
+    flex: 1;
+  }
+
+  .sohito {
+    margin-top: 0;
+  }
+
+  .favorite {
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .favorite-2 {
+    width: calc((100% - 32px) / 3);
+  }
+
+  .favorite-3 {
+    width: calc((100% - 32px) / 3);
+  }
+
+  .favorite-4 {
+    width: calc((100% - 32px) / 3);
+  }
+}
+
+@media(min-width: 1000px) {
+  header {
+    width: 1000px;
+  }
+}
