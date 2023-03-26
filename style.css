@@ -82,6 +82,7 @@ ul a:hover {
 
 .my-profile {
   text-align: left;
+  width: calc(100%-32px);
 }
 
 .my-profile h3 {
