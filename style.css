@@ -64,7 +64,7 @@ ul a:hover {
 }
 
 /* main */
-.container img {
+.your-class img {
   height: 720px;
   width: 100%;
   object-fit: cover;

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
 </head>
 <body>
   <header>
@@ -18,9 +20,12 @@
     </nav>
   </header>
 
-  <section class="container">
-    <img src="bicycle-1.jpg" alt="">
-  </section>
+  <div class="your-class">
+    <div><img src="bicycle-1.jpg" alt="" /></div>
+    <div><img src="bicycle-5.jpg" alt="" /></div>
+    <div><img src="bicycle-6.jpg" alt="" /></div>
+    <div><img src="bicycle-7.jpg" alt="" /></div>
+  </div>
   <section class="about" id="about">
     <h2>About</h2>
     <div class="about-1">
@@ -59,5 +64,14 @@
     <small>©︎ 2023 Profile</small>
   </footer>
     
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script>
+      $(document).ready(function(){
+      $('.your-class').slick({
+      });
+      });				
+  </script>
 </body>
 </html>
